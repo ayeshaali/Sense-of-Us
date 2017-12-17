@@ -1,0 +1,144 @@
+body {
+	background-color: #022B3A;	
+	text-align: center;
+}
+
+h1, h3 {
+	color: #E1E5F2;
+	font-family: "Courier New", Courier, monospace;
+}
+
+h1 {
+	text-align: left;
+	border-style: solid;
+	border-width: 5px;
+	border-color: #007991;
+}
+
+p , h4, h3{
+	color: #E1E5F2;
+}
+
+a:visited, a:link  {
+	text-decoration:  none;
+	color: #E1E5F2;
+}
+
+a:hover {
+	text-decoration:  none;
+	color: red;
+}
+
+div > a:hover {
+	text-decoration:  none;
+	color: red;
+}
+
+img {
+	margin: auto;
+	width: 800px;
+	width: 800px;
+}
+
+#linkhead {
+	font-family: "Courier New", Courier, monospace;
+	position: fixed;
+	top: 20;
+	right: 20;
+}
+/*table*/
+td {
+	text-align: center;
+}
+ 
+table {
+	margin-bottom: 20px;
+}
+
+/*bar graph*/
+.chart {
+	padding: 7px 0px 7px 0px;
+	border-style: hidden hidden hidden solid;
+	border-color: #007991;
+	border-width: 5px;
+	position: fixed;
+	left: 50%;
+	transform: translate(-50%);
+}
+
+.barnational{
+  height: 30px;
+  cursor: pointer;
+  font-family: Helvetica, sans-serif;
+  font: 15px sans-serif;
+  background-color: #BFDBF7;
+  color: white;
+  text-align: right;
+  padding-bottom: 10px;
+  margin: 1px;
+}
+
+
+.barstate{
+  height: 30px;
+  cursor: pointer;
+  font-family: Helvetica, sans-serif;
+  font: 15px sans-serif;
+  background-color: pink;
+  color: white;
+  text-align: right;
+  padding-bottom: 10px;
+  margin: 1px;
+}
+
+.barnational:hover,
+.barnational:focus, .barstate:hover,
+.barstate:focus {
+
+  background-color: #D46A6A !important;
+  
+  text {
+    color: white;
+  }
+}
+
+.state {
+	color: pink;
+}
+
+figcaption {
+  font-weight: bold;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+/*footer*/
+#footer {
+   text-align: center;
+   position: absolute;
+   bottom:0;
+   width:100%;
+   height:40px;
+   background: #007991;
+}
+
+#next {
+	color: #E1E5F2;
+	position: fixed;
+	bottom: 10;
+	right: 20;
+}	
+
+#last {
+	color: #E1E5F2;
+	position: fixed;
+	bottom: 10;
+	left: 20;
+}
+
+#index{
+	color: #E1E5F2;
+	position: fixed;
+	margin: auto;
+	bottom: 10;
+}
